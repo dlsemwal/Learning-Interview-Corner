@@ -3,7 +3,7 @@ Node Js interview questions regarding code flow and the output of code snippets.
 
 #### Write a program that reads a text file and returns the number of words in it using Node.js.
 ---
-```
+```JavaScript
 const fs = require('fs')
 fs.readFile((err, data) => {
   const parsedData = data.toString();
@@ -15,7 +15,7 @@ fs.readFile((err, data) => {
 
 #### Write a program that calculates the sum of two numbers passed as command line arguments.
 ---
-```
+```JavaScript
 const args = process.argv.slice(2);
 const num1 = parseFloat(args[0]);
 const num2 = parseFloat(args[1]);
@@ -23,7 +23,7 @@ const num2 = parseFloat(args[1]);
 
 #### Write the output for this code snippet.
 ---
-```
+```JavaScript
 function func1() {  
   let a = 1;  
   var b = 1;  
@@ -38,7 +38,7 @@ function func1() {  
 func1();
 ```
 ---
-```
+```JavaScript
 function test() {  
   let a = b = 0;  
   a++;  
@@ -50,7 +50,7 @@ test();
 // typeof b; // => ???
 ```
 ---
-```
+```JavaScript
 var x = 10; 
 var y = 20; 
 function foo() { 
@@ -64,7 +64,7 @@ var bar = foo(); 
 bar();
 ```
 ---
-```
+```JavaScript
 let item1 = {
  
   propertyA: { id: 13 },
@@ -80,24 +80,24 @@ let item2 = {
 // join item1 and item2
 ```
 ---
-```
+```JavaScript
 let result;
 result = 1 == "1"
 result = [1,2,3] == [1,2,3]
 result = [9,4,8] == "9,4,8"
 ```
 ---
-```
+```JavaScript
 const arr2D = [ [1,2][3,4][5,6]]
 // flat the array
 ```
 ---
-```
+```JavaScript
  input: [3,5,1,4,2];
 // return the max profit for different day stck price list
 ```
 ---
-```
+```JavaScript
 function delay() {
  return new Promise((resolve) => setTimeout(resolve, 2000));
 }
