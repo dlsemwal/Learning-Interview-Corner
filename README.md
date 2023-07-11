@@ -129,23 +129,4 @@ async function process(array) {
 process([1, 2, 3]);
 ```
 ---
-```JavaScript
-function delay() {
- return new Promise((resolve) => setTimeout(resolve, 2000));
-}
- 
-async function delayedLog(item) {
- await delay();
- console.log("Processing: ", item);
-}
- 
-async function process(array) {
- array.forEach(async (item) => {
-   console.log("Start process: " + item)
-   await delayedLog(item);
-   console.log("Processed: " + item)
- });
- console.log("Process completed");
-}
-process([1, 2, 3]);
-```
+
