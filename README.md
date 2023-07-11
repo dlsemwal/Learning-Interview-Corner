@@ -6,5 +6,5 @@ const fs = require('fs')
 fs.readFile((err, data) => {
 
  const parsedData = data.toString()
-const numberOfWords = parsedData.split(" ").length
+ const numberOfWords = parsedData.split(" ").length
 }, "..fileaddress")
