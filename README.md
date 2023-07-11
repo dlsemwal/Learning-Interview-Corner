@@ -10,9 +10,11 @@ fs.readFile((err, data) => {
   const numberOfWords = parsedData.split(" ").length;
   return numberOfWords
 },
-"..fileaddress")```
+"..fileaddress")
+```
 
 #### Write a program that calculates the sum of two numbers passed as command line arguments.
+---
 ```
 const args = process.argv.slice(2);
 const num1 = parseFloat(args[0]);
