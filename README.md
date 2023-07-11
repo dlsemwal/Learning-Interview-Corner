@@ -50,3 +50,91 @@ test();
 // typeof b; // => ???
 ```
 ---
+```
+var x = 10; 
+var y = 20; 
+function foo() { 
+  var x = 30; 
+  return function() { 
+    console.log(x + y); 
+  }; 
+} 
+  
+var bar = foo(); 
+bar();
+```
+---
+```
+let item1 = {
+ 
+  propertyA: { id: 13 },
+ 
+  propertyB: "India",
+ 
+};
+
+let item2 = {
+  property: "Singapore",
+};
+
+// join item1 and item2
+```
+---
+```
+let result;
+result = 1 == "1"
+result = [1,2,3] == [1,2,3]
+result = [9,4,8] == "9,4,8"
+```
+---
+```
+const arr2D = [ [1,2][3,4][5,6]]
+// flat the array
+```
+---
+```
+ input: [3,5,1,4,2];
+// return the max profit for different day stck price list
+```
+---
+```
+function delay() {
+ return new Promise((resolve) => setTimeout(resolve, 2000));
+}
+ 
+async function delayedLog(item) {
+ await delay();
+ console.log("Processing: ", item);
+}
+ 
+async function process(array) {
+ array.forEach(async (item) => {
+   console.log("Start process: " + item)
+   await delayedLog(item);
+   console.log("Processed: " + item)
+ });
+ console.log("Process completed");
+}
+process([1, 2, 3]);
+```
+---
+```JavaScript
+function delay() {
+ return new Promise((resolve) => setTimeout(resolve, 2000));
+}
+ 
+async function delayedLog(item) {
+ await delay();
+ console.log("Processing: ", item);
+}
+ 
+async function process(array) {
+ array.forEach(async (item) => {
+   console.log("Start process: " + item)
+   await delayedLog(item);
+   console.log("Processed: " + item)
+ });
+ console.log("Process completed");
+}
+process([1, 2, 3]);
+```
