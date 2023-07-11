@@ -8,6 +8,24 @@
 7. Event driven nature and event loop.
 8. Blocking/ Non-blocking code and scaling.
 9. Using EventEmitter for custom events.
+10. AWS Keys, Roles, Policies.
+11. AWS Lambda – Cold start, runtime, Layers
+12. Lambda use cases.
+13. DynamoDB – Database read/write and Index concepts.
+14. SQS/SNS – Decoupling concepts
+15. HTTPS – Encryption process between browser and server
+16. Docker knowledge check
+17. Third party integration – slow upstream scenario (High TPS to low TPS)
+
+# Concepts
+1. JavaScript Basics: Loops, Callbacks, iteration.
+2. Closures – local variables
+3. Scope using let / var / const
+4. Usage of basic data structures – Array (Push/Pop) & Dict.
+5. Recursion, Memoization
+6. Space vs Time Complexity (Big O) – Stack / Hashmap
+7. ES6/ES5 syntax
+8. Candidates are expected to program using basic constructs of JavaScript instead of ES6 constructs. 
 
 # node-codeFlow Questions
 Node Js interview questions regarding code flow and the output of code snippets.
