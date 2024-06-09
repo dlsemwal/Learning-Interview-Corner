@@ -1,0 +1,4 @@
+# Advance Topics
+
+### Transitive Dependencies:-
+In our application, we have lot of lot of dependencies but these dependencies project will have dependencies which needs to be installed to make it work. This is the transitive dependencies.
